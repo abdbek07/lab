@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7889" started-at="2018-09-11T14:16:53Z" finished-at="2018-09-11T14:17:01Z">
+  <suite name="Default suite" duration-ms="12368" started-at="2018-09-12T13:21:37Z" finished-at="2018-09-12T13:21:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7889" started-at="2018-09-11T14:16:53Z" finished-at="2018-09-11T14:17:01Z">
+    <test name="Default test" duration-ms="12368" started-at="2018-09-12T13:21:37Z" finished-at="2018-09-12T13:21:49Z">
       <class name="lab.Main">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:lab.Main@343f4d3d]" name="setUp" is-config="true" duration-ms="2967" started-at="2018-09-11T10:16:53Z" finished-at="2018-09-11T10:16:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:lab.Main@53b32d7]" name="setUp" is-config="true" duration-ms="7621" started-at="2018-09-12T09:21:37Z" finished-at="2018-09-12T09:21:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="open()[pri:1, instance:lab.Main@343f4d3d]" name="open" duration-ms="4827" started-at="2018-09-11T10:16:56Z" finished-at="2018-09-11T10:17:01Z">
+        <test-method status="PASS" signature="getTextFromElement()[pri:0, instance:lab.Main@53b32d7]" name="getTextFromElement" duration-ms="6" started-at="2018-09-12T09:21:44Z" finished-at="2018-09-12T09:21:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- open -->
-        <test-method status="PASS" signature="checkBox()[pri:2, instance:lab.Main@343f4d3d]" name="checkBox" duration-ms="76" started-at="2018-09-11T10:17:01Z" finished-at="2018-09-11T10:17:01Z">
+        </test-method> <!-- getTextFromElement -->
+        <test-method status="PASS" signature="checkBoxWithJavascriptExecutor()[pri:10, instance:lab.Main@53b32d7]" name="checkBoxWithJavascriptExecutor" duration-ms="2994" started-at="2018-09-12T09:21:44Z" finished-at="2018-09-12T09:21:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkBox -->
+        </test-method> <!-- checkBoxWithJavascriptExecutor -->
+        <test-method status="PASS" signature="radioButton()[pri:20, instance:lab.Main@53b32d7]" name="radioButton" duration-ms="1720" started-at="2018-09-12T09:21:47Z" finished-at="2018-09-12T09:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioButton -->
       </class> <!-- lab.Main -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

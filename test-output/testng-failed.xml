@@ -5,7 +5,8 @@
     <classes>
       <class name="lab.Main">
         <methods>
-          <include name="checkBox"/>
+          <include name="shutDown"/>
+          <include name="radioButton"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- lab.Main -->
